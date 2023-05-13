@@ -1,0 +1,105 @@
+.result-component {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(to bottom, #1D267D, #5C469C);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 25px;
+    border-radius: inherit;
+    width: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+
+.result-component-title h2 {
+    margin: 0;
+    color: #C4C4FF;
+}
+
+.result-component-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.numbers {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #1D267D, #5C469C);
+    background-size: cover;
+    background-position: center;
+    color: #B9A9FD;
+    font-weight: bold;
+}
+
+.numbers span:nth-child(1) {
+    font-family: "Rubik";
+    font-size: 68px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.result-component-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.result-component-status .status {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.result-component-paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+.result-paragraph {
+    width: 75%;
+    margin: 0;
+    color: #C4C4FF;
+    font-family: "Rubik";
+    line-height: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .result-component-numbers {
+      flex-direction: row;
+    }
+  
+    .numbers {
+      width: 60px;
+      height: 60px;
+      padding: 25px;
+      font-size: 24px;
+    }
+  
+    .numbers span:nth-child(1) {
+      font-size: 48px;
+    }
+  
+    .result-component-paragraph {
+      margin-top: 20px;
+    }
+  
+    .result-paragraph {
+      width: 90%;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }

@@ -1,0 +1,18 @@
+@import "./container.css";
+@import "./section-result.css";
+@import "./section-summary.css";
+@import "./section-summary-l.css";
+
+:root {
+    --white: #ffffff;
+    --red: #D21312;
+    --yellow: #FFD93D;
+    --green: #379237;
+    --purple: #1D267D;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}

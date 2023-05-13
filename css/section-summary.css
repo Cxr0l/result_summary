@@ -1,0 +1,161 @@
+.summary-component {
+    width: inherit;
+    padding: 20px 25px 20px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.summary-component-title h2 {
+    margin: 0;
+    text-align: start;
+}
+
+.summary-component-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBEDEC;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.reaction-icon-title {
+    display: inherit;
+    gap: 20px;
+}
+
+.reaction-icon-title p {
+    font-weight: bold;
+    color: #FE6868;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBF6EC;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.memory-icon-title {
+    display: inherit;
+    gap: 20px;
+}
+
+.memory-icon-title p {
+    font-weight: bold;
+    color: #FDCC6C;
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAF9F7;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.verbal-icon-title {
+    display: inherit;
+    gap: 20px;
+}
+
+.verbal-icon-title p {
+    font-weight: bold;
+    color: #3BCBA3;
+}
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F3FD;
+    border-radius: 10px;
+    padding: 6px 10px 6px 6px;
+}
+
+.visual-icon-title {
+    display: inherit;
+    gap: 20px;
+}
+
+.visual-icon-title p {
+    font-weight: bold;
+    color: #1125D6;
+}
+
+.summary-component-button {
+    margin-top: 30px;
+}
+
+.summary-component-button button {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 25px;
+    background: #303B59;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background 2s ease;
+}
+
+.summary-component-button button:hover {
+    background: linear-gradient(to bottom, #1D267D, #5C469C);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .summary-component {
+      padding: 20px;
+    }
+  
+    .summary-component-title h2 {
+      text-align: center;
+    }
+  
+    .summary-component-list {
+      margin-top: 10px;
+    }
+  
+    .reaction,
+    .memory,
+    .verbal,
+    .visual {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .reaction-icon-title,
+    .memory-icon-title,
+    .verbal-icon-title,
+    .visual-icon-title {
+      gap: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .summary-component-button button {
+      padding: 12px 0;
+      font-size: 14px;
+    }
+  
+    .bold {
+      font-weight: bold;
+    }
+}

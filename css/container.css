@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-section {
+    width: 55%;
+    height: 465px;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px #a391ff71;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      margin-top: 90px;
+      margin-bottom: 90px;
+    }
+  
+    .container-section {
+      width: 90%;
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+}
