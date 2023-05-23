@@ -80,6 +80,10 @@
 
 
 @media screen and (max-width: 767px) {
+  .result-component {
+    padding: 20px 25px;
+  }
+
   .result-component-numbers {
     flex-direction: row;
   }
@@ -103,5 +107,18 @@
     width: 90%;
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .result-component {
+    padding: 10px 10px;
+  }
+
+  .numbers {
+    width: 60px;
+    height: 60px;
+    padding:40px;
+    font-size: 24px;
   }
 }
