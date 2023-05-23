@@ -84,6 +84,9 @@ function actualizarPromedio() {
 
     numbersContainer.classList.remove("green", "red");
     numbersContainer.classList.add("yellow");
+
+    continueButton.classList.remove("green", "red");
+    continueButton.classList.add("yellow");
   } 
 
 
@@ -91,11 +94,14 @@ function actualizarPromedio() {
     resultComponent.classList.remove("green", "yellow");
     resultComponent.classList.add("red");
 
-    statusElement.textContent = "Bad 💀";
+    statusElement.textContent = "Critical 💀";
     paragraph.textContent = "You scored lower than most people who have taken these tests";
 
     numbersContainer.classList.remove("green", "yellow");
     numbersContainer.classList.add("red");
+
+    continueButton.classList.remove("green", "yellow");
+    continueButton.classList.add("red");
   }
 }
 

@@ -101,7 +101,7 @@
     padding: 15px 0;
     border: none;
     border-radius: 25px;
-    background: #303B59;
+    background: #0e5170;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
@@ -110,7 +110,7 @@
 }
 
 .summary-component-button button:hover {
-    background: linear-gradient(to bottom, #1D267D, #5C469C);
+    background: linear-gradient(to bottom, #146C94, #19A7CE);
 }
 
 .bold {
