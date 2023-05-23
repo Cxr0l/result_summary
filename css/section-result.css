@@ -77,6 +77,8 @@
     line-height: 22px;
 }
 
+
+
 @media screen and (max-width: 767px) {
     .result-component-numbers {
       flex-direction: row;
