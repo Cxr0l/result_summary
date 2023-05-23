@@ -27,7 +27,7 @@ continueButton.addEventListener('click', () => {
 
 //Mover el resultado del result
 
-const numbersElement = document.querySelector('.numbers span:first-child');
+const numbersValor = document.querySelector('.numbers span:first-child');
 
 
 function actualizarPromedio() {
@@ -39,10 +39,10 @@ function actualizarPromedio() {
 
   
   const sum = reactionCambios + memoryCambios + verbalCambios + visualCambios;
-  const average = Math.round(sum / 4);
+  const promedio = Math.round(sum / 4);
 
   
-  numbersElement.textContent = average;
+  numbersValor.textContent = promedio;
 }
 
 
@@ -50,3 +50,7 @@ continueButton.addEventListener('click', () => {
   variadoSummary();
   actualizarPromedio();
 });
+
+
+//Cambiar el color del contenedor del Result dependiendo del valor en el Summary
+
